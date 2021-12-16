@@ -1,0 +1,50 @@
+.clockAnalog {
+    position: relative;
+    margin-left: auto;
+    background-color: teal;
+    height: 40vw;
+    width: 40vw;
+    background: url(Clock.png) no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.timeZone{
+    background-color: cadetblue;
+    height:40vw;
+    width:40vw;
+
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1.5%;
+    height: 26%;
+    bottom: 48.5%;
+    left: 49.5%;
+    opacity: 0.8;
+}
+#minute {
+    width: 1.4%;
+    height: 30%;
+    bottom: 48.5%;
+    left: 49.5%;
+    opacity: 0.8;
+}
+#second {
+    width: 1%;
+    height: 40%;
+    bottom: 48.5%;
+    left: 49.55%;
+    opacity: 0.8;
+    display: none;
+}
